@@ -1,0 +1,42 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+        "mocha": true
+    },
+    "globals": {
+        "$": true,
+        "Swiper": true,
+        "App": true,
+        "WebviewJsBridge": true,
+        "canvasResize": true,
+        "wx": true,
+        "_czc": true,
+        "MtaH5": true,
+        "MPJs": true,
+        "openApp": true,
+        "setShareInfo": true,
+        "QZAppExternal": true,
+        "define": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "semi": [2, "always"],
+        "quotes": [2, "single", {
+            "avoidEscape": true,
+            "allowTemplateLiterals": true
+        }],
+        "comma-dangle": ["error", {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline",
+            "functions": "ignore"
+        }],
+        "no-console": [0, { allow: ["warn", "error"] }],
+        "space-before-function-paren": 0,
+        "no-multiple-empty-lines": [2, { "max": 1 }]
+    }
+}
