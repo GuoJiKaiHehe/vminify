@@ -22,7 +22,7 @@ npm i vminfy --save-dev
 
 ```shell
 
-const tinify = require('vminfy');
+const vminfy = require('vminfy');
 
 vminfy({
     src: '',  // 源文件 (目前采取替换方式)
